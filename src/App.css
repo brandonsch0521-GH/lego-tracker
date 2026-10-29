@@ -1,0 +1,57 @@
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+h1 {
+  margin-bottom: 8px;
+}
+.counter {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 12px;
+  background: #ffdf4b;
+  font-weight: bold;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 18px;
+}
+.lego-card {
+  padding: 22px;
+  background: white;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 3px 12px #00000012;
+}
+.lego-emoji {
+  font-size: 64px;
+  padding: 16px;
+  background: #f1f5ff;
+  border-radius: 12px;
+}
+.lego-card button {
+  width: 100%;
+  background: #e4312b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+}
+.lego-card button:hover {
+  background: #b92320;
+}
+.collection-summary {
+  margin-top: 30px;
+  padding: 22px;
+  border-radius: 16px;
+  background: white;
+}
+.collection-summary li {
+  margin: 8px 0;
+}
